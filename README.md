@@ -52,7 +52,7 @@ Map response = await FlutterNitrite.findById("collectionName", 235897485085);
 ```
 It return the ```Document``` or null if it doesn't exist.
 - Every created ```Document``` autogenerates a ```_id``` field in the database for indexing.
-## Find a list of document by query
+## Find a list of documents by query
 ```
 List response = await FlutterNitrite.findWhere("collectionName", "field", "value");
 ```
