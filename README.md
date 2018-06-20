@@ -1,13 +1,8 @@
 # flutter_nitrite
 
-A Nitrite Database wrapper for Flutter apps
+A Nitrite Database wrapper for Flutter apps using [nitrite-database library](https://github.com/dizitart/nitrite-database).
 
 #### Only supports Android for now.
-
-For help getting started with Flutter, view our online
-[documentation](https://flutter.io/).
-
-For help on editing plugin code, view the [documentation](https://flutter.io/platform-plugins/#edit-code).
 
 # Getting Started
 
@@ -48,7 +43,7 @@ List response = await FlutterNitrite.find("collectionName");
 - it also takes optional named parameters:
     ```
     offset; // defaults to 0
-    limit; // defaults tp 15
+    limit; // defaults to 15
     ```
 
 ## Find a ```Document``` by id
